@@ -1,8 +1,8 @@
 #include <stdio.h>
-/** betty code style */
-/*
- * this is the main fuction where all our codes will be called
- * befor being executed
+/**
+ * main - prints the phrase with proper grammer,
+ * but the outcome is a piece of art,
+ * Return: 0 if exited propely, non zero otherwise
  */
 int main(void)
 {
