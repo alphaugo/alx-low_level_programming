@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - Prints a random number and sates weather
  *          it is positive, negative, or zero.
@@ -15,12 +15,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 1)
-		printf(" %d is positive\n", n);
+	printf("%d is positive\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", n);
+	printf("%d is negative\n", n);
 
 	else
-		printf(" %d is Zero\n", n);
+	printf("%d is zero\n", n);
 
 	return (0);
 }
