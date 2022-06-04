@@ -11,7 +11,7 @@ int main(void)
 
 	char a;
 
-	for (a = 0; a <= 26; a++)
+	for (a = 0; a < 26; a++)
 	putchar('a' + a);
 
 	putchar('\n');
