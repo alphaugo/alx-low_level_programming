@@ -5,18 +5,10 @@
 */
 int main(void)
 {
+	int i;
 
-	if (positive_or_negative() > 0)
-
-		printf("positive \n");
-
-
-	else if (positive_or_negative() < 0)
-
-		printf("negative \n");
-
-
-	else
-		printf("zero \n");
+	i = 0;
+	positive_or_negative(i);
+	return (0);
 
 }
