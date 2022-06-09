@@ -1,17 +1,27 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _isupper - function
  *
- * Return: Always 0.
+ * @c: the character to print
+ *
+ * Return: int
  */
-int main(void)
+
+int _isupper(int c)
 {
-	char c;
-
 	if (c == 'A')
+	{
+		_putchar('A');
+		_putchar(':');
+		_putchar(' ');
 		_putchar('1');
-	else
+		_putchar('\n');
+	} else
+	{
+		_putchar('a');
+		_putchar(':');
+		_putchar(' ');
 		_putchar('0');
-
-	return (0);
+		_putchar('\n');
+	}
 }
