@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_number - function
+ * print_numbers - function
  *
  * Return: void
  */
-void print_number(void)
+void print_numbers(void)
 {
 	int a;
 
