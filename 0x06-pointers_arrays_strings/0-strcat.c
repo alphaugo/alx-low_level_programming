@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 /**
  * _strcat - function or pointer function
  *
@@ -14,15 +12,19 @@
 
 char *_strcat(char *dest, char *src)
 {
+	char ch;
+
 	while (*dest != '\0')
 	{
-		printf("%c", *dest);
+		ch = *dest;
+		_putchar(ch);
 		dest++;
 	}
 	while (*src != '\0')
 	{
-		printf("%c", *src);
+		ch = *src;
+		_putchar(ch);
 		src++;
 	}
-	printf("\n");
+	_putchar('\n');
 }
