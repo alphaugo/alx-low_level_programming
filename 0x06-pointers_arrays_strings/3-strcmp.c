@@ -19,7 +19,7 @@ int _strcmp(char *s1; char *s2)
 			amb = *(s1 + i) - *(s2 + i);
 			return (amb);
 		}
-		else if(*(s1 + i) < *(s2 + i))
+		else if (*(s1 + i) < *(s2 + i))
 		{
 			amb = *(s1 + i) - *(s2 + i);
 			return (amb);
