@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int my_counter;
 
-	for (my_counter = 0; my_counter <= argc; my_counter++)
+	for (my_counter = 0; my_counter < argc; my_counter++)
 		printf("%s\n", argv[my_counter]);
 }
 
