@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int my_counter;
+
 	if (argc >= 1)
 	{
 		for (my_counter = 0; my_counter < argc; my_counter++)
