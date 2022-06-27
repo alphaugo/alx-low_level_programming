@@ -1,1 +1,1 @@
-readme for static library functions
+readme for this task
