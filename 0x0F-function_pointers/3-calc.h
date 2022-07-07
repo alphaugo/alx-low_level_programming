@@ -1,5 +1,3 @@
-es (20 sloc)  363 Bytes
-
 #ifndef _HEADER_
 #define _HEADER_
 /**
