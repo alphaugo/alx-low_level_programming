@@ -2,13 +2,12 @@
 #include <stddef.h>
 /**
  * int_index - function
- * @array: array 
+ * @array: array
  * @size: size of array
  * @cmp: a fumction pointer
- *
- * Returne: int index
+ * Description: ...
+ * Return: int index
  */
-
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
@@ -26,4 +25,3 @@ int int_index(int *array, int size, int (*cmp)(int))
 		}
 	}
 }
-

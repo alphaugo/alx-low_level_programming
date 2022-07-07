@@ -1,4 +1,3 @@
-#include <stddef.h>
 #ifndef _FUNCTIONS_
 #define _FUNCTIONS_
 
