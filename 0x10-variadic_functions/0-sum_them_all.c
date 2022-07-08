@@ -17,13 +17,24 @@ int sum_them_all(const unsigned int n, ...)
 	va_arg(pi, int);
 
 	if(n == 0)
-		return (0);
-	while(counter < n)
 	{
-		sum += va_arg(pi, int);
-		counter++;
-	}
-	va_end(pi);
-	return (sum);
-}
+		return (0);
+	
+		while(counter < n)
+	
+		{
+		
+			sum += va_arg(pi, int);
+		
+			counter++;
+	
+		}
+	
+		va_end(pi);
+	
+		return (sum);
 
+	}
+
+	return (0);
+}
