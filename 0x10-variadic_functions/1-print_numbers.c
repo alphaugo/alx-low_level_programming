@@ -1,31 +1,30 @@
 #include "variadic_functions.h"
 /**
- * print_strings - function
+ * print_numbers - function
  * @separator: parameter
  * @n: parameter
  *
  * Return: nothing
  */
-
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list args;
-	unsigned int i = 0;
+	unsigned int count;
+
+	va_list pi;
 
 	if (n > 0)
 	{
-		va_start(args, n);
+		va_start(pi, n);
 
-		while (i < n)
+		while (count < n)
 		{
-			printf("%d", va_arg(args, int));
+			printf("%d", va_arg(pi, int));
 
-			if (i != n - 1  && separator != NULL)
+			if (count != n - 1 && separator != NULL)
 				printf("%s", separator);
-
-			i++;
+			count++;
 		}
-		va_end(args);
+		printf("\n");
 	}
-	printf("\n");
 }
+
