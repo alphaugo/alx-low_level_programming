@@ -5,16 +5,6 @@
   *
   * Return: Nothing
   */
-/**
- * struct format_types - Struct format_types
- * @identifier: The conversion specifier
- * @f: The function pointer
- */
-typedef struct format_types
-{
-	char *identifier;
-	void (*f)(char *separator, va_list args);
-} f_dt;
 
 void print_all(const char * const format, ...)
 {
