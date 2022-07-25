@@ -2,7 +2,7 @@
 #define _MAINH_
 #include <stdlib.h>
 #include <sys/types.h>
-#include <sys/state.h>
+#include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/uio.h>
