@@ -5,7 +5,7 @@
  * @head: parameter
  * @n: value
  *
- * Return: nothing
+ * Return: address of the new head
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
@@ -20,4 +20,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 
 	// move the head to point at the new node
 	(*head) = new_node;
+	if (new_node)
+		return (*head);
+	return (NULL);
 }
